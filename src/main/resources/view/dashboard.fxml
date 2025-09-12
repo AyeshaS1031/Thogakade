@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="366.0" prefWidth="381.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#60acbf" height="75.0" stroke="BLACK" strokeType="INSIDE" width="381.0" />
+      <Label layoutX="111.0" layoutY="15.0" text="THOGA KADE" textFill="#1e2854">
+         <font>
+            <Font name="Arial Black" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="47.0" text="Shop Management System" />
+      <Button layoutX="73.0" layoutY="139.0" mnemonicParsing="false" onAction="#btnManageCustomers" prefHeight="25.0" prefWidth="241.0" text="Manage customers" />
+      <Button layoutX="74.0" layoutY="181.0" mnemonicParsing="false" onAction="#btnManageItems" prefHeight="25.0" prefWidth="241.0" text="Manage items" />
+      <Button layoutX="74.0" layoutY="222.0" mnemonicParsing="false" onAction="#btnManageOrders" prefHeight="25.0" prefWidth="241.0" text="Manage orders" />
+      <Button layoutX="74.0" layoutY="264.0" mnemonicParsing="false" onAction="#btnManageOrderDetails" prefHeight="25.0" prefWidth="241.0" text="Manage order details" />
+   </children>
+</AnchorPane>
